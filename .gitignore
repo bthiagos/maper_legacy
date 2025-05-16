@@ -4,5 +4,7 @@
 /cms/tutoriais/*
 /cms_backup/graficos/*
 /cms_backup/tutoriais/*
+/cms/conn.php
+/cms/config.php
 conn_old.php
 config_old.php
