@@ -1,0 +1,520 @@
+/* - ELEMENTOS CSS - */
+
+.coment_unidade {
+    margin: 0 auto;
+    border-bottom: 1px dotted #ff6600;
+    font-family: Arial;
+    font-size: 16px;
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+
+}
+
+.coment_label {
+    margin: 0 auto;
+    background-color: #e9e9e9;
+    padding: 3px;
+    border: 1px dotted #666666;
+    margin-bottom: 10px;
+    width: 95%;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.global_pesq {
+    width: 95%;
+    margin: 0 auto;
+    border: 0px solid #00
+
+}
+
+
+
+.perg_pesq {
+    background-color: #e9e9e9;
+    padding: 3px;
+    border: 1px dotted #666666;
+    margin-bottom: 10px;
+}
+
+.dados_pessoa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+	font-weight: bold;
+}
+
+.cabecalho_tabela {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #eeeeee;
+}
+
+/* - BODY - Estilo para o body - */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* - GLOBAL - Emgloba todas as DIVS do Sistema - */
+#global {
+	width: 100%;
+	height: auto;
+}
+
+.radio_sim {
+	background-color: #99ff99;
+}
+
+.radio_nao {
+	background-color: #f56969;
+}
+
+.data_escolhida{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ff0000;
+}
+
+a.msg_mostra:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.msg_mostra:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+	font-weight: bold;
+		text-decoration: none;
+}
+
+a.msg_mostra:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #da251c;
+	font-weight: bold;
+		text-decoration: underline;
+}
+
+/* - TOPO - Div Superior onde fica a logomarca - */
+#topo {
+	width: 100%;
+	height: 75px;
+	background-image: 100%;
+}
+
+/* - MENU - Div Para o estilo do menu - */
+#menu {
+	width: 100%;
+	height: 35px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #a6a6a6;
+	background-image: url(../imagens/repete_menu.gif);
+	background-repeat: repeat-x;		
+}
+
+/* - PRINCIPAL - Div que contem o conteudo principal - */
+#principal {
+	width: 98,5%;
+	border: 10px solid #DFDFDF;
+	height: auto;
+}
+
+/* - info - Div Com uma barra de informacoes - */
+#info {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 95%;
+	height: 32px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #036dbd;
+}
+
+#info_center  {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 95%;
+	height: auto;
+	text-align: center;
+}
+
+/* - info_fim - Div Com uma barra de informacoes do fim da pagina - */
+#info_fim {
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 95%;
+	height: 32px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #036dbd;
+}
+
+/* - caixa_form - Div que ira englobar todo o formulario - */
+#caixa_form {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	border: 1px dotted #727272;
+}
+
+/* - caixa_table - Div que ira englobar toda a tabela - */
+#caixa_table {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.sub_marra {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #757575;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #77A9E0;
+	width: 97%;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+/* - linha_form - Div com a linha de cada formulario - */
+#linha_form {
+	width: 95%;
+	height: 35px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+}
+
+/* - linha_form - Div com a linha de cada formulario - */
+#linha_dados {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 2px;
+	text-align: left;
+}
+
+/* - linha_form - Div com a linha de cada formulario - */
+#linha_form_auto {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+/* - linha_form_center - Div com a linha de cada formulario - */
+#linha_form_center {
+	width: 95%;
+	height: 35px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* - label - Label do form - */
+#label {
+	float: left;
+	clear: right;
+	width: 15%;
+}
+
+/* - label_loign - Label do form - */
+#label_loign {
+	float: left;
+	clear: right;
+	width: 30%;
+}
+
+
+/* - boxlogin - Caixa do ligun */
+#boxlogin {
+	width: 300px;
+	height: 320px;
+	border: 1px solid #036dbd;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+/* - logo_login - Div que contem a logo da tela de login */
+#logo_login {
+	width: 100%
+	
+}
+
+/* - caixa_logn - caixa que envolve o form de login - */
+#caixa_logn {
+	width: 99,8%;
+	border: 1px dotted #727272;
+	margin-top: 3px;
+	height: 130px;
+	
+}
+
+/* - sist_adm - tarja de sistema administrativo - */
+#sist_adm {
+	width: 100%;
+	height: 22px;
+	background-color: #198ed4;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+/* - label_fonte - Fonte do Label do form - */
+.label_fonte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+}
+
+/* - cel_fonte - Fonte para as celulas das tabelas - */
+.cel_fonte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+	background-color:#FFFFFF;
+}
+
+/* - cel_fonte_hover - Fonte para as celulas das tabelas quando passa o mouse em cima- */
+.cel_fonte_hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727272;
+	background-color:#ffffdd;
+}
+
+/* - form_style - Estilo de formulario - */
+.form_style {
+	border: 1px solid #a6a6a6;
+	background-color: #FFFFFF;
+	color: #626262;
+}
+
+/* Sortable tables */
+table.sortable thead {
+	background-color:#eee;
+	color:#666666;
+	font-weight: bold;
+	cursor: default;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.sortable td {border:1px dotted #727272;}
+
+table.sortable2 thead {
+	background-color:#eee;
+	color:#666666;
+	font-weight: bold;
+	cursor: default;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a.ordena:link {
+	color:#666666;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none
+}
+
+a.ordena:visited {
+	color:#666666;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none
+}
+
+a.ordena:hover {
+	color:#666666;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline
+}
+
+.sortable2 td {border:1px dotted #727272;}
+
+.linha {
+		border: 1px dotted #727272;
+}
+
+a.paginacao:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.paginacao:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1893d9;
+	text-decoration: underline;
+}
+
+a.paginacao:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.paginacao_sem_link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1893d9;
+	font-weight: bold;
+}
+
+
+.bt_comprovante {
+	display: block;
+}
+
+
+.bt_comprovante {
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	padding: 15px 5px !important;
+	font-family: Arial !important;
+	font-size: 20px !important;
+	color: #ffffff !important;
+	text-transform: uppercase !important;
+	background-color: #007cc2 !important;
+	border: 2px solid #007cc2 !important;
+	
+}
+.bt_comprovante:hover {
+	color: #007cc2 !important;
+	text-transform: uppercase !important;
+	background-color: #ffffff !important;
+	border: 2px solid #007cc2 !important;
+	cursor: pointer;
+	
+}
+
+
+.centro_cmprova {
+	margin-top: 15px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000000;
+}
+
+.tb_comprova {
+	width: 90%;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.bt_comprovante2 {
+	background-color: #f79733;
+	padding: 5px;
+	color: #ffffff;
+	text-transform: uppercase;
+	width: 80px; 
+	font-weight: bold;
+}
+
+
+/* LINGUAGEM */
+.fundo-linguagem {
+    font-family: Arial;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.5);
+}
+
+.fundo-linguagem .fechar {
+     width: 30px;
+      height: 30px;
+      right: -5px;
+      top: -10px;
+      position: absolute;
+      border: 1px solid #000;
+      background: #EF0000;
+      color: #FFF;
+      text-align: center;
+      font-weight: bold;
+      line-height: 30px;
+      cursor: pointer;
+      border-radius: 100%;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+}
+
+.fundo-linguagem .linguagem {
+    background: #FFF;
+    width: 500px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -100px;
+    text-align: center;
+    position: absolute;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+.fundo-linguagem .linguagem .escolha {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 35px 0px 20px 0px;
+}
+
+.fundo-linguagem .linguagem .bandeiras {
+    width: 100%;
+    text-align: center;
+}
+
+.fundo-linguagem .linguagem .bandeiras img {
+    height: 85px;
+}
+
+.fundo-linguagem .linguagem .bandeiras a:first-child {
+    margin-left: 0px;    
+}
+
+.fundo-linguagem .linguagem .bandeiras  a {
+    display: inline-block;
+    margin-left: 35px;    
+}
+

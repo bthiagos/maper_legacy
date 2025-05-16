@@ -1,0 +1,11 @@
+ <projetos>
+	<projeto>
+		<nome></nome>
+		<cliente></cliente>
+		<link></link>
+		<img></img>
+		<mini></mini>
+		<texto></texto>
+	</projeto>
+</projetos>
+ projetos.xml

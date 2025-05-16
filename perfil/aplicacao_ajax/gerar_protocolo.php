@@ -1,0 +1,1 @@
+<? $protocolo = rand(111,999).substr(time(),-3,3); echo $protocolo;  ?>

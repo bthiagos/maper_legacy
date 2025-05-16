@@ -1,0 +1,178 @@
+ /* Configuraçoes de Body */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #eef2f6;
+	background-image: url(../imagens/bg_topo2.gif);
+	background-repeat: repeat-x;
+
+}
+
+.tr_carrinho {
+	background-color: #9cadc4;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bolder;
+}
+
+.box_forma_pag {
+	background-color: #f5f5f5;
+	border: 1px solid #9cadc4;
+	padding: 4px;
+	width: 300px;
+	margin-top: 10px;
+}
+
+.form_campo {
+	border: 1px solid #999999;
+}
+
+.form_bt {
+border: 1px solid #999999;
+}
+
+#global {
+	height: auto;
+	width: 922px;
+	margin: 0 auto;
+}
+
+#topo {
+	width: 922px;
+	height: 340px;
+}
+
+
+#conteudo {
+	width: 922px;
+	background-color: #eef2f6;
+	overflow: hidden;
+	
+	
+}
+
+.conteudo_esquerdo {
+	width: 445px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;	
+}
+
+.conteudo_direito {
+	width: 470px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;	
+}
+
+
+.textos {
+	font-family: arial;
+	font-size: 12px;	
+	color: #666666;
+}
+
+
+.barra {
+	width: 100%;
+	height: 135px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imagens/fun_barra.gif);
+	background-repeat: repeat-x;
+}
+
+.conteudo_barra {
+	width: 922px;
+	height: 135px;
+	margin: auto;
+}
+
+
+.rodape {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #f5f9fd;
+}
+
+.conteudo_rodape {
+	width: 922px;
+	height: auto;
+	margin: auto;
+	background-color: #f5f9fd;
+}
+
+
+.txt_chamada { font-family: arial; color: #101040; font-size: 22px;}
+
+a.link {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+a.link:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+a.link_barra {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+
+a.link_barra:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: underline;
+}
+
+
+a.txt_chamada:link{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+a.txt_chamada:visited{
+	font-family: arial;
+	color: #101040;
+	 font-size: 22px;
+	text-decoration: none;
+}
+
+a.txt_chamada:hover{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+a.txt_chamada:active{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: none;
+}

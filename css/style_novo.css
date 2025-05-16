@@ -1,0 +1,412 @@
+ /* Configuraçoes de Body */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+    background-image: url("style_novo/slice6.jpg")  ;
+	background-repeat: repeat-x;
+    background-position: center top;
+
+}
+
+img {
+    border: 0px;
+}
+
+#slice1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 115px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #C2C2C2;
+    background: url("style_novo/slice1.jpg") repeat-x;
+}
+
+#topo {
+    width: 961px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topo #topo_esq {
+    width: 538px;
+    float: left;
+}
+
+#topo #logo {
+    width: 157px;
+    height: 90px;
+}
+
+#topo #menu {
+    width: 538px;
+    font-family: Arial, Verdana;
+    font-size: 13px;  
+    margin-top: 25px;
+}
+
+#topo a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#topo #menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#topo #menu .small {
+    width: 62px;
+    height: 32px;
+    padding-top: 7px;
+    color: #414141;
+    text-align: center;
+    margin-left: 4px; 
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #FFF; 
+}
+
+#topo #menu .smallactive {
+    width: 62px;
+    height: 32px;
+    padding-top: 7px;
+    color: #414141;
+    text-align: center;
+    margin-left: 4px; 
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #FFF; 
+    background: url("style_novo/active_small.png") no-repeat;
+}
+
+#topo #menu .small:hover {
+    background: url("style_novo/active_small.png") no-repeat;
+}
+
+#topo #menu .big {
+    width: 94px;
+    height: 32px;
+    padding-top: 7px;
+    color: #414141; 
+    text-align: center;
+    margin-left: 4px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+#topo #menu .bigactive {
+    width: 94px;
+    height: 32px;
+    padding-top: 7px;
+    color: #414141; 
+    text-align: center;
+    margin-left: 4px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #FFF;
+    background: url("style_novo/active_big.png") no-repeat;
+}
+
+#topo #menu .big:hover {
+    background: url("style_novo/active_big.png") no-repeat;
+}
+
+#topo #avalie_ja {
+    width: 356px;
+    height: 155px;
+    float: left;
+    margin-left: 67px; 
+    margin-top: 0px;
+}
+
+#topo #avalie_ja .titulo {
+    font-family: Arial, Verdana;
+    font-size: 26px;
+    color: #1373B0;
+}
+
+#topo #avalie_ja .texto {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#topo #avalie_ja .box {
+    width: 356px;
+    height: 126px;
+    padding-top: 7px;
+    padding-left: 17px;
+    background: url("style_novo/avalie_fundo.png") no-repeat;
+}
+
+#topo #avalie_ja .box .input {
+    width: 313px;
+    height: 22px;
+    margin-top: 7px;
+    background: url("style_novo/avalie_input.png") no-repeat;
+}
+
+#topo #avalie_ja .box .input_interno {
+    width: 293px;
+    height: 22px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+    color: #909090;
+}
+
+#topo #avalie_ja .box .ddd {
+    width: 64px;
+    height: 23px;
+    float: left;
+    margin-right: 2px;
+    margin-top: 10px;
+    background: url("style_novo/avalie_ddd.png") no-repeat;
+}
+
+#topo #avalie_ja .box .telefone {
+    width: 64px;
+    height: 23px;
+    float: left; 
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    background: url("style_novo/avalie_telefone.png") no-repeat;
+}
+
+#topo #avalie_ja .box .tel_interno {
+    width: 54px;
+    height: 23px;
+    border: 0px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: transparent;
+    color: #909090;
+}
+
+#topo #avalie_ja .box .traco {
+    float: left;
+    width: 10px;
+    text-align: center;
+    padding-top:10px;
+}
+
+#topo #avalie_ja .box .objetivos {
+    clear: left;
+    color: #737375;
+    font-family: Arial, Verdana;
+    font-size: 11px;
+
+}
+
+#topo #avalie_ja .box .objetivo {
+    float: left;
+    padding-top: 6px;
+}
+
+#topo #avalie_ja .box .objetivo_radio {
+    float: left;
+    padding-top: 2px;
+}
+
+#topo #avalie_ja .box .enviar {
+    float: left;
+    margin-left: 21px; 
+    margin-top: -15px;
+}
+
+
+#rodape {
+    width: 100%;
+    bottom: 0px;
+    height: 45px;
+    line-height: 42px;
+    background: url("style_novo/rodape_fundo.jpg") repeat-x;
+    text-align: center;
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    margin-top: 60px;
+    color: #FFF;
+}
+
+.tr_carrinho {
+	background-color: #9cadc4;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bolder;
+}
+
+.box_forma_pag {
+	background-color: #f5f5f5;
+	border: 1px solid #9cadc4;
+	padding: 4px;
+	width: 300px;
+	margin-top: 10px;
+}
+
+.form_campo {
+	border: 1px solid #999999;
+}
+
+.form_bt {
+border: 1px solid #999999;
+}
+
+#global {
+	height: auto;
+	width: 922px;
+	margin: 0 auto;
+   
+}
+
+#topo {
+	width: 922px;
+	height: 340px;
+}
+
+
+#conteudo {
+	width: 922px;
+	background: transparent;
+	overflow: hidden;
+	
+	
+}
+
+.conteudo_esquerdo {
+	width: 445px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;	
+}
+
+.conteudo_direito {
+	width: 470px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;	
+}
+
+
+.textos {
+	font-family: arial;
+	font-size: 12px;	
+	color: #666666;
+}
+
+
+.barra {
+	width: 100%;
+	height: 135px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imagens/fun_barra.gif);
+	background-repeat: repeat-x;
+}
+
+.conteudo_barra {
+	width: 922px;
+	height: 135px;
+	margin: auto;
+}
+
+
+.rodape {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #f5f9fd;
+}
+
+.conteudo_rodape {
+	width: 922px;
+	height: auto;
+	margin: auto;
+	background-color: #f5f9fd;
+}
+
+
+.txt_chamada { font-family: arial; color: #101040; font-size: 22px;}
+
+a.link {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+a.link:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+a.link_barra {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+
+a.link_barra:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: underline;
+}
+
+
+a.txt_chamada:link{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+a.txt_chamada:visited{
+	font-family: arial;
+	color: #101040;
+	 font-size: 22px;
+	text-decoration: none;
+}
+
+a.txt_chamada:hover{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+a.txt_chamada:active{
+	font-family: arial;
+	color: #101040;
+	font-size: 22px;
+	text-decoration: none;
+}

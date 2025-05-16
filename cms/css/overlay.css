@@ -1,0 +1,57 @@
+
+/* the overlayed element */
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#fff;
+	margin-top: -150px;
+	width:350px;	
+	min-height:250px;
+}
+
+.simple_overlay2 {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#fff;
+	
+	width:500px;	
+	height:400px;
+    margin-top: -180px;
+
+
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image:url(../close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+
+/* close button positioned on upper right corner */
+.simple_overlay2 .close {
+	background-image:url(../close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}

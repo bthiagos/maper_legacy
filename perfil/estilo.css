@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Verdana, Times New Roman;
+    font-size: 13px;
+    color: #666;
+    background: url("aplicacao_img/fundo.jpg") center top repeat-x;
+}
+
+#topo {
+    width: 100%;
+    height: 130px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid #C2C2C2;
+    background: url("aplicacao_img/topo.jpg");
+}
+
+#topo #interno {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topo a {
+    width: 157px;
+    height: 90px;
+    margin-top: 15px;
+    display: block;
+    background: url("aplicacao_img/logo.png");
+}
+
+#conteudo {
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rodape {
+    width: 100%;
+    bottom: 0px;
+    height: 45px;
+    line-height: 42px;
+    background: url("aplicacao_img/rodape_fundo.jpg") repeat-x;
+    text-align: center;
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    color: white;
+}
+
+#conteudo h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#formulario {
+    width: 603px;
+    margin-top: 20px;
+    float: left;
+}
+
+#formulario label {
+    float: left; 
+    margin-right:7px;
+    width: 85px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.formularios input, select, textarea {
+    width: 280px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #666;
+    height: 22px;
+    border: 1px solid #CCC;
+}
+
+#formulario textarea {
+    width: 250px;
+    height: 150px;
+}
+
+.formularios .submitbutton {
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px!important;
+    height: 25px!important;
+    border: 1px solid #999!important;
+}
+
+#formulario br {
+    clear: both;
+}
+
+#formulario_protocolo {
+    text-align: center;
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    float: right;
+    border: 1px solid #CCC;
+    margin-top: 20px;
+}
+
+#formulario_protocolo p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#formulario_protocolo strong {
+    font-size: 14px;
+}
+
+/* //////////////// QUESTIONARIO ////////////////// */
+	
+#slider_container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 962px;
+}
+
+#slider_wrapper {
+	 overflow: hidden; 
+	 width: 900px; 
+	 background: #FFF;
+	 border: 1px solid black;
+}
+
+#slider {
+	width: 100%; 
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+#slider li {
+	list-style: none;
+	padding: 0px;
+	vertical-align: top;
+	display: inline-block;
+   
+}
+
+#slider_nav li {
+	width: 25px;
+	height: 22px;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	padding-top: 3px;
+	cursor: pointer;
+	background: #FFF;
+}
+
+#slider_nav .active {
+	border: 1px solid #359AFF;
+}
+
+#slider_nav .respondido {
+	background: #B3FFB3!important;
+}
+
+#slider_nav .nao_respondido {
+	background: #5E0000;
+}
+
+#slider_nav .deactive {
+}
+
+#ant {
+	float: left;	
+	margin-right: 20px;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+#prox {
+	float: left;
+	margin-left: 0px;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+#finalizar {
+	margin-top: 40px;
+	cursor: pointer;
+	background-color:#3D82D3;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	padding:10px 30px;
+	text-align:center;
+	float:left;
+	margin-left:320px;
+}
+
+#perfil {
+    width: 901px;
+}
+
+#perfil h1 {
+    float: left; margin-top: 0px
+}
+
+#dados {
+    float: left;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+#dados label {
+    font-weight: bold;
+    width: 93px;
+}
+
+#dados_organizacao {
+    line-height: 22px;
+    float: right;
+    margin-top: 10px;
+}
+
+#dados_organizacao label {
+    font-weight: bold;
+    width: 93px;
+}
+
+#timer {
+    float: right;
+    font-size: 16px;
+    margin-top: 11px;
+}
+
+#fim {
+    text-align: center;
+    
+}
+
+#fim div {
+    font-size: 18px;
+}
+
+/* LINGUAGEM */
+.fundo-linguagem {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+.fundo-linguagem .linguagem {
+    background: #FFF;
+    width: 500px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -100px;
+    text-align: center;
+    position: absolute;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+.fundo-linguagem .linguagem .escolha {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 35px 0px 20px 0px;
+}
+
+.fundo-linguagem .linguagem .bandeiras {
+    width: 100%;
+    text-align: center;
+}
+
+.fundo-linguagem .linguagem .bandeiras img {
+    height: 85px;
+}
+
+.fundo-linguagem .linguagem .bandeiras a:first-child {
+    margin-left: 0px;    
+}
+
+.fundo-linguagem .linguagem .bandeiras  a {
+    display: inline-block;
+    margin-left: 35px;    
+}

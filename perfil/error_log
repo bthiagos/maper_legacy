@@ -1,0 +1,6 @@
+[28-Mar-2019 16:57:19 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/appweb/public_html/perfil/aplicacao.php on line 143
+[28-Mar-2019 16:57:19 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/appweb/public_html/perfil/aplicacao.php on line 143
+[28-Mar-2019 16:57:19 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/appweb/public_html/perfil/aplicacao.php on line 145
+[28-Mar-2019 17:10:53 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/appweb/public_html/perfil/aplicacao.php on line 143
+[28-Mar-2019 17:10:53 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/appweb/public_html/perfil/aplicacao.php on line 143
+[28-Mar-2019 17:10:53 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/appweb/public_html/perfil/aplicacao.php on line 145

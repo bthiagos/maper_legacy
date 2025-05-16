@@ -1,0 +1,186 @@
+<?php include("conn.php"); ?>
+<?php include("logon.php"); ?>
+<?php include("library.php"); ?>
+<?
+// Permissao de acesso
+
+// --- INICIO Efetuando a exlcusao
+if ($_REQUEST['apagar']) {
+	
+	$sql = "DELETE FROM organizacoes WHERE id=".$_REQUEST['cod'];
+	if (mysql_query($sql)) {
+		$frase = "Organização excluida com sucesso!";
+	}
+	
+}
+
+// --- FIM    Efetuando a exlcusao
+
+// --- INICIO Efetuando o cadastro
+if ($_REQUEST['cadastra']) {
+	
+	// Varificacao de campos
+	$ok = 1;
+	
+	// texto 
+	if (!($_POST["texto"] == "")) {
+		$texto  = trim($_POST["texto"]);
+	} else {
+		$ok = 0;
+	}
+	
+	if (!($_POST["orga"] == "Selecione")) {
+		$orga  = trim($_POST["orga"]);
+	} else {
+		$ok = 0;
+	}
+	
+	$id = $_REQUEST["cod"];
+	
+	
+	// Se seu campo estiver OK!
+	if (!$ok) {
+		// Alert de ERRO!
+		alert("Algum campo foi preenchido incorretamente ou está em branco, tente novamente!");
+	} else {
+	
+			
+			
+			// Gravando dados no banco
+			$sql = "UPDATE grupos SET  nome='$texto', id_organizacao='$orga' WHERE id=$id";
+			$sql2 = "UPDATE aplicacoes SET organizacao = '$orga' WHERE grupo = '$id'";
+			
+			// Confirmacao de insert
+			if (mysql_query($sql) and mysql_query($sql2)) {					
+				alert("Grupo alterado com sucesso!");
+				redireciona("grupos.php");
+			}
+	} 
+}
+	
+
+
+// --- FIM    Efetuando o cadastro
+
+if ($_REQUEST["cod"]) {
+	$id = $_REQUEST["cod"];
+	
+	$sql = "SELECT * FROM grupos WHERE id=$id";
+	$result = mysql_query($sql);
+	$linha = mysql_fetch_assoc($result);
+	$nome = $linha["nome"];
+	$orga = $linha["id_organizacao"];
+}
+
+
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<?php include("header.php"); ?>
+
+<body>
+
+<!-- This optional free use link disables the online purchase reminder.  Include within the body of your page -->
+<div style="display: none;"><a id='qm_free' href='http://www.opencube.com'>OpenCube Drop Down Menu (www.opencube.com)</a>
+<br><br><br></div>
+
+	<!-- INICIO - DIV global - Emgloba todo o site -->
+	<div id="global">
+	
+		<?php include("topo.php"); ?>	
+		
+		
+		<!-- INICIO - DIV MENU - Menu do Sistema -->
+		<?php include("menu.php"); ?>
+		<!-- INICIO - DIV MENU - Menu do Sistema -->
+		
+		<!-- INICIO - DIV PRINCIPAL - Div com conteudo principal -->
+		<div id="principal">
+		
+		
+			<!-- INICIO - DIV info - Barra de informacao -->
+			<div id="info">
+				<img src="imagens/barra_grupos_edit.gif" alt="Cadastro de Organizações" title="Cadastro de Organizações" />
+			</div>
+			<!-- INICIO - DIV info - Barra de informacao -->
+			
+			<form action="grupos_alt.php?cadastra=1&cod=<?=$id;?>" method="post" name="cadastra" enctype="multipart/form-data">
+			
+			<!-- INICIO - DIV caixa_form - Div que ira englobar todo o formulario -->
+			<div id="caixa_form">
+			
+				
+			<div id="linha_form">
+				<div id="label"> <span class="label_fonte">Grupo: </span> </div><input type="text" size="50" name="texto" value="<?=$nome?>" class="form_style">
+			
+			</div>
+			
+
+			<div id="linha_form">
+				<div id="label"> <span class="label_fonte">Organização: </span> </div>
+				<select name="orga" class="form_style">
+				<option value="Selecione">Selecione</option>
+				<?
+				$sql = "SELECT * FROM organizacoes ORDER BY nome";
+				$result = mysql_query($sql);
+				
+				while ($linha = mysql_fetch_assoc($result)) {
+					if ($orga == $linha["id"]) {
+						$select = "SELECTED";
+					}else{
+						$select = "";
+					}
+				?>
+					<option value="<?=$linha["id"]?>" <?=$select?> ><?=$linha["nome"]?></option>
+				<?
+					
+					
+					
+				}
+				
+				?>
+				</select>
+			</div>
+				
+				
+				
+				
+				<p align="center"><input type="submit" value="Alterar" class="form_style"></p>
+				
+				
+			
+				</div></form>
+		
+				<!-- INICIO - DIV info fim - Barra de informacao -->
+				<div id="info_fim">
+				&nbsp;
+					</div>
+				<!-- INICIO - DIV info fim - Barra de informacao -->			
+					
+			
+			
+
+		
+		
+		
+		
+		
+		
+			<!-- INICIO - DIV info fim - Barra de informacao -->
+			<div id="info_fim">
+				&nbsp;
+			</div>
+			<!-- INICIO - DIV info fim - Barra de informacao -->	
+		
+		</div> <!-- FIM DIV PRINCIPAL -->
+		 
+	</div> <!-- FIM DIV GLOBAL-->
+	
+
+</body>
+<script type="text/javascript">qm_create(0,false,0,500,false,false,false,false);</script>
+<?if ($frase) {
+	alert($frase);
+}?>
+</html>

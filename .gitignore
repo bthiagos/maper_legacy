@@ -1,0 +1,8 @@
+/.vscode/*
+/vendor/*
+/cms/graficos/*
+/cms/tutoriais/*
+/cms_backup/graficos/*
+/cms_backup/tutoriais/*
+conn_old.php
+config_old.php
